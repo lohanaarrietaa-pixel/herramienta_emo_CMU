@@ -2106,7 +2106,7 @@ def ejecutar_programacion(
         "diagnostico_no_programados": diagnostico_no_programados,
         "ventanas_recursos": ventanas_recursos,
     }
-
+if __name__ == "__main__":
 resultado = ejecutar_programacion(
     archivo_escenarios=ARCHIVO_ESCENARIOS,
     hoja_escenario=HOJA_ESCENARIO,
