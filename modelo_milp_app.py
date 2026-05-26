@@ -1276,7 +1276,7 @@ def crear_solver(msg=True):
     #)
 
     # SOLVER HiGHS
-    solver = pl.highspy(
+    solver = pl.HiGHS(
          msg=msg,
          timeLimit=TIME_LIMIT_SOLVER,
          gapRel=MIP_GAP,
