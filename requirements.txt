@@ -3,3 +3,8 @@ pandas
 pdfplumber
 openpyxl
 pulp
+numpy
+xlsxwriter
+plotly
+pyomo
+highspy
